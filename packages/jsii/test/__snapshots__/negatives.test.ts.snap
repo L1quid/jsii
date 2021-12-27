@@ -562,7 +562,7 @@ neg.reserved.emits-warning.ts:2:14 - warning JSII5018: "None" is a reserved word
 2 export class None {
                ~~~~
 
-neg.reserved.emits-warning.ts:3:19 - warning JSII5018: "do" is a reserved word in C#, Java. Using this name may cause problems when generating language bindings. Consider a different name.
+neg.reserved.emits-warning.ts:3:19 - warning JSII5018: "do" is a reserved word in C#, Java, Ruby. Using this name may cause problems when generating language bindings. Consider a different name.
 
 3   public readonly do: boolean = true;
                     ~~

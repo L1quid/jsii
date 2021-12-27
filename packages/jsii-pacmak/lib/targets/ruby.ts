@@ -79,7 +79,7 @@ class RubyGenerator extends Generator {
     throw new Error('Unhandled Type: StaticMethodOverload');
   }
 
-  protected onStaticMethod(_cls: spec.ClassType, _method: spec.Method) {
+  protected onStaticMethod(cls: spec.ClassType, _method: spec.Method) {
     return;
   }
 

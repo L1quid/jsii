@@ -118,6 +118,7 @@ describe(toReleaseVersion, () => {
       java: '1.2.3',
       js: '1.2.3',
       python: '1.2.3',
+      ruby: '1.2.3',
     },
     '1.2.3-pre': {
       dotnet: '1.2.3-pre',
@@ -126,6 +127,7 @@ describe(toReleaseVersion, () => {
       js: '1.2.3-pre',
       python:
         /Unable to map prerelease identifier \(in: 1\.2\.3-pre\) components to python: \[ 'pre' \]/,
+      ruby: '1.2.3-pre',
     },
     '1.2.3-alpha.1337': {
       dotnet: '1.2.3-alpha.1337',
@@ -133,6 +135,7 @@ describe(toReleaseVersion, () => {
       java: '1.2.3-alpha.1337',
       js: '1.2.3-alpha.1337',
       python: '1.2.3.a1337',
+      ruby: '1.2.3-alpha.1337',
     },
     '1.2.3-beta.42': {
       dotnet: '1.2.3-beta.42',
@@ -140,6 +143,7 @@ describe(toReleaseVersion, () => {
       java: '1.2.3-beta.42',
       js: '1.2.3-beta.42',
       python: '1.2.3.b42',
+      ruby: '1.2.3-beta.42',
     },
     '1.2.3-rc.9': {
       dotnet: '1.2.3-rc.9',
@@ -147,6 +151,7 @@ describe(toReleaseVersion, () => {
       java: '1.2.3-rc.9',
       js: '1.2.3-rc.9',
       python: '1.2.3.rc9',
+      ruby: '1.2.3-rc.9',
     },
   };
 
