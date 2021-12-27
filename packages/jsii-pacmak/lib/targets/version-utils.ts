@@ -133,6 +133,7 @@ export function toReleaseVersion(
     case TargetName.GO:
     case TargetName.JAVA:
     case TargetName.JAVASCRIPT:
+    case TargetName.RUBY:
       // Not touching - the NPM version number should be usable as-is
       break;
   }

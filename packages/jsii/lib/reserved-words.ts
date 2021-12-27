@@ -13,6 +13,11 @@ export function isReservedName(name: string): string[] | undefined {
   if (GO_RESERVED.has(name)) {
     reserved.push('Go');
   }
+
+  if (RUBY_RESERVED.has(name)) {
+    reserved.push('Ruby');
+  }
+
   return reserved.length > 0 ? reserved : undefined;
 }
 
@@ -255,4 +260,43 @@ export const GO_RESERVED = new Set([
   'imag',
   'panic',
   'recover',
+]);
+
+export const RUBY_RESERVED = new Set([
+  'alias',
+  'and',
+  'begin',
+  'break',
+  'case',
+  'class',
+  'def',
+  'defined?',
+  'do',
+  'else',
+  'elsif',
+  'end',
+  'ensure',
+  'false',
+  'for',
+  'if',
+  'in',
+  'module',
+  'next',
+  'nil',
+  'not',
+  'or',
+  'redo',
+  'rescue',
+  'retry',
+  'return',
+  'self',
+  'super',
+  'then',
+  'true',
+  'undef',
+  'unless',
+  'until',
+  'when',
+  'while',
+  'yield', // pearl jam
 ]);
